@@ -14,7 +14,7 @@ def generate_password(length):
 
 
 def generate_email():
-    characters = string.ascii_letters + string.digits
+    characters = string.ascii_letters.lower() + string.digits
     return ''.join(random.choice(characters) for _ in range(8)) + '@' + 'test.ru'
 
 def wait_url_changed(driver, expected_url):
