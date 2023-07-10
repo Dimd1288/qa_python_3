@@ -1,0 +1,5 @@
+URL = 'https://stellarburgers.nomoreparties.site/'
+LOGIN_URL = 'https://stellarburgers.nomoreparties.site/login'
+PROFILE_URL = 'https://stellarburgers.nomoreparties.site/account/profile'
+DEFAULT_USER = 'test111@test.ru'
+DEFAULT_PASSWORD = '111111'
